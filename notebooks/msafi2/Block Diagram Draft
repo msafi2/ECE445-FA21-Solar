@@ -1,0 +1,18 @@
+Block Diagram: https://lucid.app/lucidchart/4cb9e38b-6251-46ce-b9c2-149ff0d2e640/edit?invitationId=inv_5285fbee-5ece-41b9-a9d3-344f7830ee7b
+
+
+Wireless Microcontroller:
+https://predictabledesigns.com/introduction-to-the-esp32-wifi-bluetooth-wireless-microcontroller/
+
+
+
+
+3 - High Level Requirements:
+Interactive web design
+Wireless communication capability with solar panels
+Scalability
+
+1 Sub-system Requirement:
+Manual Switch Controls 
+
+DC-AC-Power Inverter (Subsystem) must be load independent 

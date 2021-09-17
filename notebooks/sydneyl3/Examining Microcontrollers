@@ -1,0 +1,23 @@
+Sydney Li/Sydneyl3 - September 17, 2021 12:12AM
+
+Looking at Wireless Microcontrollers and Arduino:
+  ESP32 
+      - Wireless Microcontroller (ESP32 MCU): Wi-Fi Connectivity within a large radius. Operates at a temperature range from -40°C to 105°C. 
+          - Performs more accurate DC voltage measurements (Analog to Digital Converters with Higher Resolution) - Eighteen 12-bit ADCs
+          - Replaced our original design of utilizing an arduino for analog to digital conversion to measure voltage and current 
+      - Power Subsystem consists of a Step-Down Buck Converter: Utilized to step down the DC-DC voltage to power up 3.3V/5V LEDs, switches, etc. 
+
+  - Does Digital to Analog and Analog to Digital Conversion
+
+https://cdn.sparkfun.com/datasheets/IoT/esp32_datasheet_en.pdf
+
+Safety Concerns
+    Arc Flashes - Flash Burn and Blast Hazards
+    Electric Shock, with particular scrutiny on faulty wiring as well 
+    Falls - due to the location itself of the solar panels for this project (ECEB roof)
+    Thermal Burn Hazards
+    Over-current/voltage - ideally will be directly countered by our interface box 
+
+Some changes to our block diagram
+Discuss panel ratings and what input connections will be communicating with our interface box
+Designing schematics

@@ -8,7 +8,12 @@
 [09/13/2021: First TA Meeting](#09132021-first-ta-meeting) \
 [09/14/2021 - 09/15/2021: Proposal Completion](#09142021---09152021-proposal-completion) \
 [09/17/2021: Follow-up TA Meeting](#09172021-follow-up-ta-meeting) \
-[09/18/2021: GitHub Consolidation](#09182021-github-consolidation)
+[09/18/2021: GitHub Consolidation](#09182021-github-consolidation) \
+[09/25/2021 - 09/26/2021: First Draft of Design Document](#09252021---09262021-first-draft-of-design-document) \
+[09/27/2021: Design Document Check Session](#09272021-design-document-check-session) \
+[09/28/2021: Research Wireless Communication Path Structure](#09282021-research-wireless-communication-path-structure) \
+[09/29/2021 - 09/30/2021: Design Document Completion](#09292021---09302021-design-document-completion) \
+[10/05/2021: Design Document Review Session](#10052021-design-document-review-session)
 
 ## 08/26/2021 - 08/29/2021: Team Finding 
 **Objectives:** Find a team and establish line of communication. Finalize an idea and approach to groupwork, as well as begin working on RFA. 
@@ -66,3 +71,28 @@ The following links were part of my prior research and following discussion and 
 **Objectives:** Update the team GitHub repository with all project details and primary documents prepared so far 
 
 **Outcome:** As the member of the team handling the software side of things and the one who set up the team GitHub repository itself, I spent some time to format the entire repository and add all of my personal work/details as well as all common team documents/work to the repository so that we have all project-specific details accessible in one area and it is easily navigable. The repository is up to date now in this regard as of work done till 09/18/2021. 
+
+## 09/25/2021 - 09/26/2021: First Draft of Design Document 
+**Objectives:** Finish an almost-complete draft of our project's design document so that we can have a check-in with ECE 445 course staff 
+
+**Outcome:** 
+
+## 09/27/2021: Design Document Check Session  
+**Objectives:** Attend and present our project's design documentation so far at a session with Professor Scuh 
+
+**Outcome:**
+
+## 09/28/2021: Research Wireless Communication Path Structure 
+**Objectives:** As decided in current Design Document, I looked into how I might set-up the foundation for our wireless communication capability 
+
+**Outcome:** 
+
+## 09/29/2021 - 09/30/2021: Design Document Completion 
+**Objectives:** Update our project's design document based on suggestions and critique provided by Professor Scuh and TAs 
+
+**Outcome:** 
+
+## 10/05/2021: Design Document Review Session  
+**Objectives:** Attend and present our project's updated design documentation at a session with Professor Scuh
+
+**Outcome:** 

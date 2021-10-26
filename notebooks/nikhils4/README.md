@@ -15,7 +15,8 @@
 [09/29/2021 - 09/30/2021: Updated Design Document Completion](#09292021---09302021-updated-design-document-completion) \
 [10/05/2021: Design Document Review Session](#10052021-design-document-review-session) \
 [10/11/2021: Research for Pathway for Remote Configuration](#10112021-research-for-pathway-for-remote-configuration) \
-[10/19/2021 - 10/20/2021: Set up initial Server-side code, and Start working on Portal Webpage](#10192021---10202021-set-up-initial-server-side-code-and-start-working-on-portal-webpage)
+[10/19/2021: Post Design Submission Update Meeting with TA](#10192021-post-design-submission-update-meeting-with-ta) \
+[10/23/2021: Compiling Research into Django Framework and Data Visualization](#10232021-compiling-research-into-django-framework-and-data-visualization)
 
 ## 08/26/2021 - 08/29/2021: Team Finding 
 **Objectives:** Find a team and establish line of communication. Finalize an idea and approach to groupwork, as well as begin working on RFA. 
@@ -157,8 +158,25 @@ The final reviewed draft of our Design Document can be found within this reposit
   * https://electropeak.com/learn/create-a-web-server-w-esp32/
   * https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/
 
-## Future Work: 
-## 10/19/2021 - 10/20/2021: Set up initial Server-side code, and Start working on Portal Webpage 
-**Objectives:** Use completed research to get preliminary server-side connection completed and have a layout for the Portal webpage 
+## 10/19/2021: Post Design Submission Update Meeting with TA  
+**Objectives:** Discuss our progress so far on our board layout and the planned approach for software capabilties with TA Evan 
 
-**Outcome:** TBD
+**Outcome:** Following the submission of our Design Document, we had a meeting with our TA Evan to discuss our plans so far and what all we need to work on as next steps.
+
+From a larger team point of view for our project's hardware side, we needed to complete putting together our board layout so that we can order our PCB itself (this is currently delayed and so is a priority objective). We were able to review the schematic we have so far and discussed some improvement points - requirement of isolation of different parts of the board for safety, especially hazardous wiring; need for clarification on the relay-management network (switching subsystem) and how we will be using a multiplexor for the same; and emphasize visualizing the different external connections and board connectors that we need to account for and adding those specifically into the schematic. 
+
+Coming to the software side of the project that I am working on, I was able to explain how I will have a 3-object approach to the entire software side - the microcontroller as an access point that will be programmed on Arduino IDE that receives POST requests for configurations and sends real-time POST requests of monitored data, a back-end server that will be hosted locally and written in Flask and Python which will have a mirrored reflection of POST request capability and also communicate with the webpage GUI, and finally the front-end webpage of our Portal that at least needs to be locally hosted and show real-time updates and visualization. \
+While the approach itself was sound, Evan suggested using ORM (Object Relational Mapping) and a framework like Django to allow for easier handling of our webpage structure itself. I will be looking into these options at the earliest to be able to put together a firmer design for this before implementation. We also decided to order at least the microcointroller as soon as possible to be able to begin on programming it. 
+
+Note: We had a follow-up meeting on 10/22/2021 that covered and clarified similar points, as well as how we might improve our Design Document 
+
+## 10/23/2021: Compiling Research into Django Framework and Data Visualization
+**Objectives:** Finding and putting together information on building a a website using Django and how we would setup GUI
+
+**Outcome:** Following TA Evan's suggestion to use Django as the basis of our website, I looked into it as I have not used Django before and learnt that Django is widely used framework for many heavy-use and heavy-bandwidth websites. It also provides multiple built-in libraries and dependencies that would make most of the front-end I have to develop very straightforward to implement. With this in mind, I was able to compile the following resources that I can use to build this Django-based webpage and then build our data visualizations on top of that: 
+* https://realpython.com/get-started-with-django-1/ 
+* https://www.dev2qa.com/how-to-make-a-website-with-python-and-django/
+* An approach to visualizations on Django using 'Flexmonster' tool: https://www.freecodecamp.org/news/how-to-create-an-analytics-dashboard-in-django-app/
+* Chart JS is a Javascript charting tool that can also be used for visualization: https://www.chartjs.org/
+
+The next steps now are to plan out the exact design of my front-end. TA Evan also mentioned it would be a good idea to develop a diagram/visualization of all the Django modules that will be used as a graph for design reviews. 
